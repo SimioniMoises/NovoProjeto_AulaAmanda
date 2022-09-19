@@ -1,0 +1,109 @@
+    .titulo {
+
+        font-weight: bold;
+        font-size: 34px;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        padding: 40px;
+        font-family: sans-serif;
+        color: midnightblue;
+        background-color: rgb(212, 237, 247);
+
+    }
+
+    .iconetitulo{
+
+
+        margin-top: 15px;
+        width: 45px;
+        height: 45px;
+
+    }
+
+    nav{
+
+        background-color: rgb(136, 255, 136);
+        padding: 30px;
+      
+    }
+
+
+    nav li {
+
+        margin-top: 10px;
+        display: inline-block;
+        padding: 10px;
+        font-size: 22px;
+        color:midnightblue;
+        font-family: sans-serif;
+        font-weight: bold;
+
+}
+
+    a{
+
+        color: midnightblue;
+        text-decoration: none;
+
+}
+
+    img{
+        
+        
+        width: 400px;
+        height: 300px;
+
+}
+
+    .produto{
+
+        text-align: center;
+        
+
+}
+
+    .produto li{
+    
+        
+        margin-top: 20px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 30%;
+        display: inline-block;
+        box-sizing: border-box;
+        border-width: 5px;
+        border-color: yellow;
+        border-style: solid;
+        
+
+}
+
+
+    .texto{
+
+
+        color: black;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        margin-top: 5px;
+        font-style: italic;
+
+}
+
+    .valorproduto{
+
+        margin-top: 3px;
+        color: crimson;
+        font-size: 14px;
+        font-weight: bold;
+         
+    }
+
+
+
+
+
+    
