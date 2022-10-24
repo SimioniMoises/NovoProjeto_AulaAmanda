@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title> Catálogo </title>
+  <head>
+    <title>Catálogo</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="widht=device-widht,initial-scale=1">
+    <meta name="viewport" content="widht=device-widht,initial-scale=1" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-</head>
-<header class="titulo">
+  </head>
+  <header class="titulo">
     Live Games
     <br />
     <img class="iconetitulo" src="assets/icon.png" />
-</header>
-<main>
+  </header>
+  <main class="color">
     <form>
-        <label for="nomesobrenome"> Nome e Sobrenome: </label>
-        <input type="text" id="nomesobrenome">
+      <label for="nomesobrenome"> Nome e Sobrenome: </label>
+      <input
+        class="input-padrao"
+        type="text"
+        id="nomesobrenome"
+        required
+        placeholder="Apenas primeiro nome"
+      />
 
-        <label for="idade"> Idade: </label>
-        <input type="number" id="idade">
+      <label for="idade"> Idade: </label>
+      <input class="input-padrao" type="number" id="idade" required />
 
-        <label for="email"> Email: </label>
-        <input type="text" id="email">
+      <label for="email"> Email: </label>
+      <input
+        class="input-padrao"
+        type="email"
+        id="email"
+        required
+        placeholder="seuemail@dominio.com"
+      />
 
-        <label for="telefone"> Telefone: </label>
-        <input type="text" id="telefone">
+      <label for="telefone"> Telefone: </label>
+      <input
+        class="input-padrao"
+        type="tel"
+        id="telefone"
+        required
+        placeholder="(xx) xxxxx-xxxx "
+      />
 
-        <label for="interesses"> Interesses: </label>
-        <input type="text" id="interesses">
+      <label for="interesses"> Interesses: </label>
+      <input
+        class="input-padrao"
+        type="text"
+        id="interesses"
+        required
+        placeholder="Jogo favorito"
+      />
 
-        <!-- <label for="novidades"> Deseja ficar por dentro das novidades do site? </label>
+      <!-- <label for="novidades"> Deseja ficar por dentro das novidades do site? </label>
         <input class="checar" type="radio" id="novidades"> -->
 
-        <div class="checbox-container">
-            <label for="termos"> Concorda os termos de licença? </label>
-            <input class="checar" type="radio" id="termos">
-        </div>
+      <div class="checbox-container">
+        <label for="termos"> Concorda os termos de licença? </label>
+        <input class="checar" type="radio" id="termos" />
+        <label for="termos"> Aceita os cookies do site? </label>
+        <input class="checar" type="radio" id="cookies" />
+        <br />
+        <input class="botao" type="submit" id="button" />
+      </div>
 
-<!-- 
+      <!-- 
         <label for="cookies"> Aceita os cookies do site? </label>
 
         <input class="checar" type="radio" id="cookies"> -->
-
     </form>
-
-</main>
-<footer>
-    <img src="assets/icon.png">
-    <p> &copy; Live Games Ltda - Todos os direitos reservados, 2022</p>
-</footer>
-
+  </main>
+  <footer>
+    <img src="assets/icon.png" />
+    <p>&copy; Live Games Ltda - Todos os direitos reservados, 2022</p>
+  </footer>
 </html>
